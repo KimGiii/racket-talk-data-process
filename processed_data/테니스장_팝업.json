@@ -1,0 +1,316 @@
+{
+  "DESCRIPTION": {
+    "COURT_NAME": "장소명",
+    "ADDRESS": "주소",
+    "TELNO": "전화번호",
+    "COURT_IMAGE": "이미지경로",
+    "LNG": "장소Y좌표",
+    "LAT": "장소X좌표"
+  },
+  "DATA": [
+    {
+      "court_name": "응봉공원",
+      "address": "서울특별시 성동구 응봉동 240-1",
+      "telno": "02-2293-7646",
+      "lng": "127.02182026085195",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=17321541834256RCALME1MZ5IYDCVZ31IPY52X",
+      "lat": "37.5569473910838"
+    },
+    {
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "addresss": "서울특별시 동작구 신대방제2동",
+      "telno": "02-841-8808",
+      "lng": "126.91605",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=SVC_IMG_FILE_276094",
+      "lat": "37.49101"
+    },
+    {
+      "court_name": "난지물재생센터 테니스장",
+      "address": "경기도 고양시 덕양구 현천동 614-4",
+      "telno": "02-300-8520",
+      "lng": "126.85059867206277",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1736813194176ZX42J23U7UH2H1GRQOE6AKB4O",
+      "lat": "37.59005831904612"
+    },
+    {
+      "court_name": "계남근린공원",
+      "address": "서울특별시 양천구 신천동",
+      "telno": "02-2611-9007",
+      "lng": "126.85584753847884",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1744248917462GPML8VF9QJ2FN8ZN6CLXP1X9N",
+      "lat": "37.51020151253864"
+    },
+    {
+      "court_name": "중랑물재생센터 테니스장",
+      "address": "서울특별시 성동구 자동차시장3길 64",
+      "telno": "02-2211-2568",
+      "lng": "127.0595",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1731981960223L6KRHHCX7L9D9G5SFSGNP6O2S",
+      "lat": "37.56057"
+    },
+    {
+      "court_name": "인재개발원 테니스장",
+      "address": "서울특별시 서초구 남부순환로340길 58",
+      "telno": "02-3488-2054",
+      "lng": "127.02343534049716",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1639357360134LL3H9SB85X39D2ECLAPJOJDHG",
+      "lat": "37.481194337398286"
+    },
+    {
+      "court_name": "서울물재생시설공단 탄천물재생센터",
+      "address": "서울특별시 강남구 일원2동",
+      "telno": "02-445-9705",
+      "lng": "127.07937089232",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1650419495844MQR650MBHFMGP4K0Q7G4ODZB0",
+      "lat": "37.496830858969"
+    },
+    {
+      "court_name": "서남물재생센터",
+      "address": "서울특별시 강서구 마곡동 215-2",
+      "telno": "02-3660-2254",
+      "lng": "126.82589611618",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1682472801643GDXIZBN2E4TP4R8JVO4W63YOG",
+      "lat": "37.577287681053"
+    },
+    {
+      "court_name": "마루공원",
+      "address": "서울특별시 강남구 일원2동",
+      "telno": "02-445-9705",
+      "lng": "127.08065924405156",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1615787296106DO01L9WX0U7PW3GH3LPI7HIDM",
+      "lat": "37.49523951079615"
+    },
+    {
+      "court_name": "신도림테니스장",
+      "address": "서울특별시 구로구 신도림로19길",
+      "telno": null,
+      "lng": "126.883234589819",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1744590634064ZYOU7LRBZ64MP4ISJR7J249EN",
+      "lat": "37.5137612393354"
+    },
+    {
+      "court_name": "잠실유수지체육시설",
+      "address": "서울특별시 송파구 잠실동",
+      "telno": "02-402-5526 / 010-4784-1835",
+      "lng": "127.07734",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1743583247207AGJPJCGOK44FFD18WQ1K3RSPG",
+      "lat": "37.50385"
+    },
+    {
+      "court_name": "어린이대공원 테니스장 B코트",
+      "addres": "서울특별시 광진구 어린이대공원내 능동 18번지",
+      "telno": null,
+      "lng": "127.08571177723894",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=164065970052360E3UALIPRY26RL05Q7J26CQ6",
+      "lat": "37.54921933524233"
+    },
+    {
+      "court_name": "어린이대공원 테니스장 A코트",
+      "address": "서울특별시 광진구 어린이대공원내 능동 18번지",
+      "telno": null,
+      "lng": "127.08576073560094",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1640659328745POOVMWBOYF1FBM2PCWDZLGO0N",
+      "lat": "37.54920733875649"
+    },
+    {
+      "court_name": "삼청테니스장",
+      "address": "서울특별시 종로구 삼청로 156",
+      "telno": "02-2148-4068",
+      "lng": "126.98281",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=17385433313131B4IZSXSQT95PJA5YJVAATUB9",
+      "lat": "37.58887"
+    },
+    {
+      "court_name": "서울숲 테니스장 테스트",
+      "address" : "서울특별시 성동구 뚝섬로 273",
+      "telno": "02-460-2983 // 주말 및 공휴일 02-460-2998",
+      "lng": "127.04002718681369",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1732175572870Y44JRJP335UNJYY2W99ZSCN2S",
+      "lat": "37.546350658583435"
+    },
+    {
+      "court_name": "한남테니스장",
+      "address": "서울특별시 용산구 한남동 726-181",
+      "telno": null,
+      "lng": "127.00393",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=17450473975090GYV0RBXNNI13UDUC4X0NIABH",
+      "lat": "37.5467"
+    },
+    {
+      "court_name": "장평테니스장",
+      "address": "서울특별시 동대문구 장안동 356",
+      "telno": "장애신고 : 02-2126-4647 (평일) / 이용문의 : 02-2247-9772",
+      "lng": "127.07348",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=17179836455942ZKRHSH2WAF4PZ5ZF0E6NA1YM",
+      "lat": "37.56654"
+    },
+    {
+      "court_name": "월드컵공원 테니스장",
+      "address": "서울특별시 마포구 성산동",
+      "telno": "02-300-5576, 02-304-3216",
+      "lng": "126.89791",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1744347455763H6455H7B2ZDH6REMFQQP3396R",
+      "lat": "37.56335"
+    },
+    {
+      "court_name": "월곡테니스장",
+      "address": "서울특별시 성북구 화랑로13길 144",
+      "telno": null,
+      "lng": "127.04168782920031",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=174505784333513AWIH5QRIMV2QAOYXT3UITD2",
+      "lat": "37.60906655269909"
+    },
+    {
+      "court_name": "장충테니스장",
+      "address": "서울특별시 중구 장충동2가 산14-103번지",
+      "telno": null,
+      "lng": "127.00167192962464",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1745492789037B56053YC2KGDISR2TZ84GTJNY",
+      "lat": "37.55400560480704"
+    },
+    {
+      "court_name": "정릉테니스장",
+      "address": "서울특별시 성북구 정릉제3동 957-46",
+      "telno": null,
+      "lng": "126.99463371988261",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=17455073595412OIXU6V0JHZ6LUE8HVSYCG53K",
+      "lat": "37.60983616301847"
+    },
+    {
+      "court_name": "동작구 테니스장",
+      "address": "서울특별시 동작구 동작동 326-4",
+      "telno": null,
+      "lng": "126.97856",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1735645234924C0NGJSLFNMSP1XZQVNH8MCZZ7",
+      "lat": "37.50368"
+    },
+    {
+      "court_name": "서울에너지공사 목동 테니스장 1면",
+      "address": "서울특별시 양천구 목동서로 20",
+      "telno": "02-2640-5173",
+      "lng": "126.88379",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1682650496456AESTFEV9TV2ZLCH4VN0JQ23ZU",
+      "lat": "37.53975"
+    },
+    {
+      "court_name": "서울에너지공사 목동 테니스장 2면",
+      "address": "서울특별시 양천구 목동서로 20",
+      "telno": "02-2640-5176",
+      "lng": "126.88363579942359",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1682412636564LVJZ1ERWD9CQY91JNPBQK883P",
+      "lat": "37.53955378544427"
+    },
+    {
+      "court_name": "이촌 한강공원 테니스장",
+      "address": "서울특별시 용산구 용산동6가 450-1",
+      "telno": null,
+      "lng": "126.98522586904551",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=174565694347424XX1C7G9U0NH0HNDDIDHX5CU",
+      "lat": "37.51543003389875"
+    },
+    {
+      "court_name": "뚝섬 한강공원 테니스장",
+      "address": "서울특별시 광진구 자양동 704 1번지",
+      "telno": null,
+      "lng": "127.078061581285",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1745883493510H037T1EZU36P6F6IP435TZYZF",
+      "lat": "37.52720933697021"
+    },
+    {
+      "court_name": "광나루 한강공원 테니스장",
+      "address": "서울특별시 강동구 637-6",
+      "telno": null,
+      "lng": "127.12188006433978",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=17458174943662NMWXR0VLU0EDOVQ9V57DEFEY",
+      "lat": "37.54989784603126"
+    },
+    {
+      "court_name": "오륜테니스장",
+      "address": "서울특별시 송파구 오륜동 436-59",
+      "telno": "02-402-8174",
+      "lng": "127.14077",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1744672445499M4QZA8KLGK52J9URQTTN3W8L1",
+      "lat": "37.51268"
+    },
+    {
+      "court_name": "망원유수지 소프트테니스장",
+      "address": "서울특별시 마포구 망원동",
+      "telno": "02-337-7319",
+      "lng": "126.8976091641645",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1702437312551XH54DRFBA0J8XB70OPCDV4ODZ",
+      "lat": "37.55717510774988"
+    },
+    {
+      "court_name": "성내천테니스장",
+      "address": "서울특별시 송파구 풍납동 471",
+      "telno": "02-402-8174",
+      "lng": "127.1101",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1744585188512KXO9DYR10JPDJ9M2S4J2QZ9BP",
+      "lat": "37.52419"
+    },
+    {
+      "court_name": "송파테니스장",
+      "address": "서울특별시 송파구 송파1동 106",
+      "telno": "02-402-8174",
+      "lng": "127.11253039193392",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=17447633824635CHFL1TVGFB7B9LQ90M3KKD8R",
+      "lat": "37.50414865740594"
+    },
+    {
+      "court_name": "잠원한강테니스장",
+      "address": "서울특별시 서초구 잠원동 잠원로 221-124",
+      "telno": null,
+      "lng": "127.01228",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1745489096130RQ3SRLHF6ATZM6W062ZI7IFOX",
+      "lat": "37.52075"
+    },
+    {
+      "court_name": "망원한강테니스장",
+      "address": "서울특별시 마포구 205-4",
+      "telno": null,
+      "lng": "126.89397",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1745486753521AIEOXDVPU19R02WLGMAXO0XRR",
+      "lat": "37.5558"
+    },
+    {
+      "court_name": "난지한강테니스장",
+      "address": "서울특별시 마포구 한강난지로 162",
+      "telno": null,
+      "lng": "126.88544",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1745490400956ROBET764954XMGXPWB2CY9AKX",
+      "lat": "37.56287"
+    },
+    {
+      "court_name": "동부도로사업소 테니스장",
+      "address": null,
+      "telno": null,
+      "lng": "127.07597",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1731741359909J735HJIHH86Y09WL0YAGE5EN3",
+      "lat": "37.49781"
+    },
+    {
+      "court_name": "오금공원테니스장",
+      "address": "서울특별시 송파구 오금동 오금로 363",
+      "telno": "02-402-8174",
+      "lng": "127.13167",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1744586242997XQV88FY9TVYJ0ECUJOKRNUGZH",
+      "lat": "37.5052"
+    },
+    {
+      "court_name": "난우공원 테니스장",
+      "address": "서울특별시 관악구 신림동 산 124-6",
+      "telno": null,
+      "lng": "126.92267",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=17443566570495LT3IT6EAOGUE6S47E9GWEEOQ",
+      "lat": "37.47737"
+    },
+    {
+      "court_name": "남부도로사업소 테니스장",
+      "address": "서울특별시 영등포구 도림로 145",
+      "telno": null,
+      "lng": "126.89792",
+      "court_image": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1731744947127IBGQOY77JUGK6OMQZQT1Q6YQI",
+      "lat": "37.49426"
+    }
+  ]
+}
