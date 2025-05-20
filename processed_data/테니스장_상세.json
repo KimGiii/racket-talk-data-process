@@ -1,1732 +1,1983 @@
 {
   "DESCRIPTION": {
+    "V_MAX": "서비스이용 종료시간",
+    "USETGTINFO": "서비스대상",
     "SVCID": "서비스ID",
+    "V_MIN": "서비스이용 시작시간",
+    "RCPTBGNDT": "접수시작일시",
+    "GUBUN": "서비스구분",
+    "SVCSTATNM": "서비스상태",
+    "SVCURL": "바로가기URL",
     "SVCNM": "서비스명",
-    "USETGTINFO": "이용대상",
-    "TIME": "이용시간"
+    "AREANM": "지역명",
+    "PAYATNM": "결제방법",
+    "SVCOPNENDDT": "서비스개시종료일시",
+    "SVCOPNBGNDT": "서비스개시시작일시",
+    "PLACENM": "장소명d",
+    "REVSTDDAY": "취소기간 기준일까지",
+    "TELNO": "전화번호d",
+    "MAXCLASSNM": "대분류명",
+    "REVSTDDAYNM": "취소기간 기준정보",
+    "IMGURL": "이미지경로d",
+    "Y": "장소Y좌표d",
+    "X": "장소X좌표d",
+    "DTLCONT": "상세정보",
+    "RCPTENDDT": "접수종료일시",
+    "MINCLASSNM": "소분류명"
   },
   "DATA": [
     {
-      "svcid": "S241121105406432224",
-      "svcnm": "테니스장1(토/일/공휴일)-2025년 응봉공원(대현산배수지)",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "응봉공원",
+      "court_detail_id": "S241121105406432224",
+      "detail_court_name": "테니스장1(토/일/공휴일)-2025년 응봉공원(대현산배수지)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S241121110341910383",
-      "svcnm": "테니스장2(토/일/공휴일)-2025년 응봉공원(대현산배수지)",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "응봉공원",
+      "court_detail_id": "S241121110341910383",
+      "detail_court_name": "테니스장2(토/일/공휴일)-2025년 응봉공원(대현산배수지)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S200903171905941615",
-      "svcnm": "보라매공원테니스장 1번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S200903171905941615",
+      "detail_court_name": "보라매공원테니스장 1번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S201030095955674906",
-      "svcnm": "보라매공원테니스장 2번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030095955674906",
+      "detail_court_name": "보라매공원테니스장 2번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S201030100749834127",
-      "svcnm": "보라매공원테니스장 3번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030100749834127",
+      "detail_court_name": "보라매공원테니스장 3번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S201030101119569374",
-      "svcnm": "보라매공원테니스장 4번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030101119569374",
+      "detail_court_name": "보라매공원테니스장 4번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S201030101340919783",
-      "svcnm": "보라매공원테니스장 5번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030101340919783",
+      "detail_court_name": "보라매공원테니스장 5번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S201030102944573871",
-      "svcnm": "보라매공원테니스장 1번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030102944573871",
+      "detail_court_name": "보라매공원테니스장 1번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S201030103317125671",
-      "svcnm": "보라매공원테니스장 2번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030103317125671",
+      "detail_court_name": "보라매공원테니스장 2번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S201030103931638215",
-      "svcnm": "보라매공원테니스장 3번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030103931638215",
+      "detail_court_name": "보라매공원테니스장 3번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S201030105206531192",
-      "svcnm": "보라매공원테니스장 1번코트(토.일.공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030105206531192",
+      "detail_court_name": "보라매공원테니스장 1번코트(토.일.공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S201030105601087749",
-      "svcnm": "보라매공원테니스장 2번코트(토.일.공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030105601087749",
+      "detail_court_name": "보라매공원테니스장 2번코트(토.일.공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S201030145802586611",
-      "svcnm": "보라매공원테니스장 3번코트(토.일.공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S201030145802586611",
+      "detail_court_name": "보라매공원테니스장 3번코트(토.일.공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210302232236697326",
-      "svcnm": "보라매공원테니스장 4번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S210302232236697326",
+      "detail_court_name": "보라매공원테니스장 4번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S210302232601011038",
-      "svcnm": "보라매공원테니스장 5번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S210302232601011038",
+      "detail_court_name": "보라매공원테니스장 5번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S210302233348803598",
-      "svcnm": "보라매공원테니스장 4번코트(토.일.공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S210302233348803598",
+      "detail_court_name": "보라매공원테니스장 4번코트(토.일.공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210302233656019242",
-      "svcnm": "보라매공원테니스장 5번코트(토.일.공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S210302233656019242",
+      "detail_court_name": "보라매공원테니스장 5번코트(토.일.공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S240402145153610347",
-      "svcnm": "보라매공원테니스장 6번 레슨코트(공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S240402145153610347",
+      "detail_court_name": "보라매공원테니스장 6번 레슨코트(공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S240402150601237335",
-      "svcnm": "보라매공원테니스장 7번 레슨코트(공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S240402150601237335",
+      "detail_court_name": "보라매공원테니스장 7번 레슨코트(공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S240502134147421761",
-      "svcnm": "보라매공원테_8월30일(금)_(6번)레슨코트",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원 관리사무소 테니스장",
+      "court_detail_id": "S240502134147421761",
+      "detail_court_name": "보라매공원테_8월30일(금)_(6번)레슨코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250114090501006336",
-      "svcnm": "난지물재생센터 테니스장(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~17:00"
+      "court_name": "난지물재생센터 테니스장",
+      "court_detail_id": "S250114090501006336",
+      "detail_court_name": "난지물재생센터 테니스장(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~17:00"
     },
     {
-      "svcid": "S250210155727408893",
-      "svcnm": "난지물재생센터 테니스장(주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~17:00"
+      "court_name": "난지물재생센터 테니스장",
+      "court_detail_id": "S250210155727408893",
+      "detail_court_name": "난지물재생센터 테니스장(주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~17:00"
     },
     {
-      "svcid": "S250410103459890895",
-      "svcnm": "5월계남테니스야외코트(평일 06시~18시)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410103459890895",
+      "detail_court_name": "5월계남테니스야외코트(평일 06시~18시)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250410103814593069",
-      "svcnm": "5월계남테니스야외코트(주말06시~18시)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410103814593069",
+      "detail_court_name": "5월계남테니스야외코트(주말06시~18시)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250410104204431519",
-      "svcnm": "5월계남테니스야외코트(평일,주말18시~20시)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~20:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410104204431519",
+      "detail_court_name": "5월계남테니스야외코트(평일,주말18시~20시)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~20:00"
     },
     {
-      "svcid": "S250410104843654798",
-      "svcnm": "5월계남테니스야외코트(평일20시~22시)",
-      "usetgtinfo": " 제한없음",
-      "time": "20:00~22:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410104843654798",
+      "detail_court_name": "5월계남테니스야외코트(평일20시~22시)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "20:00~22:00"
     },
     {
-      "svcid": "S250410105101465192",
-      "svcnm": "5월계남테니스실내A코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410105101465192",
+      "detail_court_name": "5월계남테니스실내A코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250410105243634751",
-      "svcnm": "5월계남테니스실내A코트(평일야간/주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410105243634751",
+      "detail_court_name": "5월계남테니스실내A코트(평일야간/주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250410105503130097",
-      "svcnm": "5월계남테니스실내B코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410105503130097",
+      "detail_court_name": "5월계남테니스실내B코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250410105634273561",
-      "svcnm": "5월계남테니스실내B코트(평일야간/주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410105634273561",
+      "detail_court_name": "5월계남테니스실내B코트(평일야간/주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250410105804465429",
-      "svcnm": "5월계남테니스실내C코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410105804465429",
+      "detail_court_name": "5월계남테니스실내C코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250410105934088780",
-      "svcnm": "5월계남테니스실내C코트(평일야간/주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "계남근린공원",
+      "court_detail_id": "S250410105934088780",
+      "detail_court_name": "5월계남테니스실내C코트(평일야간/주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S241119110513468671",
-      "svcnm": "2025년 중랑물재생센터 테니스장 B",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~17:00"
+      "court_name": "중랑물재생센터 테니스장",
+      "court_detail_id": "S241119110513468671",
+      "detail_court_name": "2025년 중랑물재생센터 테니스장 B",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~17:00"
     },
     {
-      "svcid": "S241119111400962309",
-      "svcnm": "2025년 중랑물재생센터 테니스장 A",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~17:00"
+      "court_name": "중랑물재생센터 테니스장",
+      "court_detail_id": "S241119111400962309",
+      "detail_court_name": "2025년 중랑물재생센터 테니스장 A",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~17:00"
     },
     {
-      "svcid": "S190502151751379566",
-      "svcnm": "인재개발원 테니스장(인조잔디 A면) 대관",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~19:00"
+      "court_name": "인재개발원 테니스장",
+      "court_detail_id": "S190502151751379566",
+      "detail_court_name": "인재개발원 테니스장(인조잔디 A면) 대관",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~19:00"
     },
     {
-      "svcid": "S190502160848522070",
-      "svcnm": "인재개발원 테니스장(인조잔디 B면) 대관",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~19:00"
+      "court_name": "인재개발원 테니스장",
+      "court_detail_id": "S190502160848522070",
+      "detail_court_name": "인재개발원 테니스장(인조잔디 B면) 대관",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~19:00"
     },
     {
-      "svcid": "S220420104434156882",
-      "svcnm": "탄천센터 테니스장 1면 조명쪽 (일원1,개포3동 주민 전용 시설) ",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서울물재생시설공단 탄천물재생센터",
+      "court_detail_id": "S220420104434156882",
+      "detail_court_name": "탄천센터 테니스장 1면 조명쪽 (일원1,개포3동 주민 전용 시설) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S220420111459351786",
-      "svcnm": "탄천센터 테니스장 2면(일원1,개포3동 주민 대상 예약)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서울물재생시설공단 탄천물재생센터",
+      "court_detail_id": "S220420111459351786",
+      "detail_court_name": "탄천센터 테니스장 2면(일원1,개포3동 주민 대상 예약)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210218174815551697",
-      "svcnm": "서남센터 테니스장1번 65세이상(가양1동,방화1동3동) 전용코트(평일)",
-      "usetgtinfo": " 어르신",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210218174815551697",
+      "detail_court_name": "서남센터 테니스장1번 65세이상(가양1동,방화1동3동) 전용코트(평일)",
+      "target_user_info": " 어르신",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219085555417413",
-      "svcnm": "서남센터 테니스장2번 65세이상(가양1동,방화1동3동) 전용코트(평일)",
-      "usetgtinfo": " 어르신",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219085555417413",
+      "detail_court_name": "서남센터 테니스장2번 65세이상(가양1동,방화1동3동) 전용코트(평일)",
+      "target_user_info": " 어르신",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219091235657961",
-      "svcnm": "서남센터 테니스장3번 가양1동,방화1동3동 전용코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219091235657961",
+      "detail_court_name": "서남센터 테니스장3번 가양1동,방화1동3동 전용코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219091554014528",
-      "svcnm": "서남센터 테니스장4번 가양1동,방화1동3동 전용코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219091554014528",
+      "detail_court_name": "서남센터 테니스장4번 가양1동,방화1동3동 전용코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219091826906010",
-      "svcnm": "서남센터 테니스장5번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219091826906010",
+      "detail_court_name": "서남센터 테니스장5번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219092004901944",
-      "svcnm": "서남센터 테니스장6번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219092004901944",
+      "detail_court_name": "서남센터 테니스장6번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219092115226884",
-      "svcnm": "서남센터 테니스장7번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219092115226884",
+      "detail_court_name": "서남센터 테니스장7번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219092313243896",
-      "svcnm": "서남센터 테니스장8번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219092313243896",
+      "detail_court_name": "서남센터 테니스장8번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219092430823699",
-      "svcnm": "서남센터 테니스장9번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219092430823699",
+      "detail_court_name": "서남센터 테니스장9번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210219092625909779",
-      "svcnm": "서남센터 테니스장10번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210219092625909779",
+      "detail_court_name": "서남센터 테니스장10번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210224094844227739",
-      "svcnm": "서남센터 테니스장11번 코트(평일)-월,수요일만 가능",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210224094844227739",
+      "detail_court_name": "서남센터 테니스장11번 코트(평일)-월,수요일만 가능",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210224095950585838",
-      "svcnm": "서남센터 테니스장12번 코트(평일)-월,수요일만 가능",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210224095950585838",
+      "detail_court_name": "서남센터 테니스장12번 코트(평일)-월,수요일만 가능",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330144106815190",
-      "svcnm": "서남센터 테니스장2번 65세이상(가양1동,방화1동3동) 전용코트(주말/공휴일)",
-      "usetgtinfo": " 어르신",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330144106815190",
+      "detail_court_name": "서남센터 테니스장2번 65세이상(가양1동,방화1동3동) 전용코트(주말/공휴일)",
+      "target_user_info": " 어르신",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330144415976466",
-      "svcnm": "서남센터 테니스장3번 가양1동,방화1동3동  전용코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330144415976466",
+      "detail_court_name": "서남센터 테니스장3번 가양1동,방화1동3동  전용코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330144745435127",
-      "svcnm": "서남센터 테니스장4번 가양1동,방화1동3동  전용코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330144745435127",
+      "detail_court_name": "서남센터 테니스장4번 가양1동,방화1동3동  전용코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330150834331881",
-      "svcnm": "서남센터 테니스장5번 코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330150834331881",
+      "detail_court_name": "서남센터 테니스장5번 코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330151503659748",
-      "svcnm": "서남센터 테니스장6번 코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330151503659748",
+      "detail_court_name": "서남센터 테니스장6번 코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330153312040259",
-      "svcnm": "서남센터 테니스장7번 코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330153312040259",
+      "detail_court_name": "서남센터 테니스장7번 코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330154443511753",
-      "svcnm": "서남센터 테니스장8번 코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330154443511753",
+      "detail_court_name": "서남센터 테니스장8번 코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330154738706805",
-      "svcnm": "서남센터 테니스장9번 코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330154738706805",
+      "detail_court_name": "서남센터 테니스장9번 코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330155032074618",
-      "svcnm": "서남센터 테니스장10번 코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~23:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330155032074618",
+      "detail_court_name": "서남센터 테니스장10번 코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~23:00"
     },
     {
-      "svcid": "S210330161029473769",
-      "svcnm": "서남센터 테니스장11번 코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330161029473769",
+      "detail_court_name": "서남센터 테니스장11번 코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210330161319628636",
-      "svcnm": "서남센터 테니스장12번 코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S210330161319628636",
+      "detail_court_name": "서남센터 테니스장12번 코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S240205084226331534",
-      "svcnm": "서남센터 테니스장1번 65세이상(가양1동,방화1동3동) 전용코트(주말/공휴일)",
-      "usetgtinfo": " 어르신",
-      "time": "06:00~22:00"
+      "court_name": "서남물재생센터",
+      "court_detail_id": "S240205084226331534",
+      "detail_court_name": "서남센터 테니스장1번 65세이상(가양1동,방화1동3동) 전용코트(주말/공휴일)",
+      "target_user_info": " 어르신",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210205141719898815",
-      "svcnm": "마루공원 테니스장 1면",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "마루공원",
+      "court_detail_id": "S210205141719898815",
+      "detail_court_name": "마루공원 테니스장 1면",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210216130920543807",
-      "svcnm": "마루공원 테니스장 2면",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "마루공원",
+      "court_detail_id": "S210216130920543807",
+      "detail_court_name": "마루공원 테니스장 2면",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S210216131232290211",
-      "svcnm": "마루공원 테니스장 3면",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "마루공원",
+      "court_detail_id": "S210216131232290211",
+      "detail_court_name": "마루공원 테니스장 3면",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250414093012029354",
-      "svcnm": "신도림테니스장 05월 평일 A코트 주간 접수(07시~19시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414093012029354",
+      "detail_court_name": "신도림테니스장 05월 평일 A코트 주간 접수(07시~19시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S250414093835241790",
-      "svcnm": "신도림테니스장 05월 평일 A코트 야간 접수(19시~21시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~21:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414093835241790",
+      "detail_court_name": "신도림테니스장 05월 평일 A코트 야간 접수(19시~21시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~21:00"
     },
     {
-      "svcid": "S250414094443190483",
-      "svcnm": "신도림테니스장 05월 평일 B코트 주간 접수(07시~19시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414094443190483",
+      "detail_court_name": "신도림테니스장 05월 평일 B코트 주간 접수(07시~19시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S250414094950296541",
-      "svcnm": "신도림테니스장 05월 평일 B코트 야간 접수(19시~21시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~21:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414094950296541",
+      "detail_court_name": "신도림테니스장 05월 평일 B코트 야간 접수(19시~21시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~21:00"
     },
     {
-      "svcid": "S250414095303721837",
-      "svcnm": "신도림테니스장 05월 평일 C코트 주간 접수(07시~19시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414095303721837",
+      "detail_court_name": "신도림테니스장 05월 평일 C코트 주간 접수(07시~19시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S250414095546411126",
-      "svcnm": "신도림테니스장 05월 평일 C코트 야간 접수(19시~21시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~21:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414095546411126",
+      "detail_court_name": "신도림테니스장 05월 평일 C코트 야간 접수(19시~21시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~21:00"
     },
     {
-      "svcid": "S250414102322972489",
-      "svcnm": "신도림테니스장 05월 주말.공휴일 A코트 주간 접수(07시~19시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414102322972489",
+      "detail_court_name": "신도림테니스장 05월 주말.공휴일 A코트 주간 접수(07시~19시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S250414102821527607",
-      "svcnm": "신도림테니스장 05월 주말.공휴일 A코트 야간 접수(19시~21시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~21:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414102821527607",
+      "detail_court_name": "신도림테니스장 05월 주말.공휴일 A코트 야간 접수(19시~21시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~21:00"
     },
     {
-      "svcid": "S250414103237055413",
-      "svcnm": "신도림테니스장 05월 주말.공휴일 B코트 주간 접수(07시~19시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414103237055413",
+      "detail_court_name": "신도림테니스장 05월 주말.공휴일 B코트 주간 접수(07시~19시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S250414103616710979",
-      "svcnm": "신도림테니스장 05월 주말.공휴일 B코트 야간 접수(19시~21시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~21:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414103616710979",
+      "detail_court_name": "신도림테니스장 05월 주말.공휴일 B코트 야간 접수(19시~21시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~21:00"
     },
     {
-      "svcid": "S250414104045877565",
-      "svcnm": "신도림테니스장 05월 주말.공휴일 C코트 주간 접수(07시~19시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414104045877565",
+      "detail_court_name": "신도림테니스장 05월 주말.공휴일 C코트 주간 접수(07시~19시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S250414104432767734",
-      "svcnm": "신도림테니스장 05월 주말.공휴일 C코트 야간 접수(19시~21시 ) ",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~21:00"
+      "court_name": "신도림테니스장",
+      "court_detail_id": "S250414104432767734",
+      "detail_court_name": "신도림테니스장 05월 주말.공휴일 C코트 야간 접수(19시~21시 ) ",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~21:00"
     },
     {
-      "svcid": "S250402173641718099",
-      "svcnm": "5월 잠실유수지 테니스장 평일주간",
-      "usetgtinfo": " 제한없음(서울시민누구나)",
-      "time": "06:00~18:00"
+      "court_name": "잠실유수지체육시설",
+      "court_detail_id": "S250402173641718099",
+      "detail_court_name": "5월 잠실유수지 테니스장 평일주간",
+      "target_user_info": " 제한없음(서울시민누구나)",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250402174450475632",
-      "svcnm": "(송파구민전용) 5월 잠실 테니스장 평야,주말,주야",
-      "usetgtinfo": " 제한없음(송파구민&amp;amp;재직자만 가능)",
-      "time": "06:00~22:00"
+      "court_name": "잠실유수지체육시설",
+      "court_detail_id": "S250402174450475632",
+      "detail_court_name": "(송파구민전용) 5월 잠실 테니스장 평야,주말,주야",
+      "target_user_info": " 제한없음(송파구민&amp;amp;재직자만 가능)",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S211228114752595461",
-      "svcnm": "어린이대공원 테니스장 B코트",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "어린이 대공원 B",
+      "court_detail_id": "S211228114752595461",
+      "detail_court_name": "어린이대공원 테니스장 B코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S211228114140285936",
-      "svcnm": "어린이대공원 테니스장 A코트",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "어린이 대공원 A",
+      "court_detail_id": "S211228114140285936",
+      "detail_court_name": "어린이대공원 테니스장 A코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250203094124495973",
-      "svcnm": "삼청테니스장 코트이용(야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~20:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250203094124495973",
+      "detail_court_name": "삼청테니스장 코트이용(야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~20:00"
     },
     {
-      "svcid": "S250203094515004373",
-      "svcnm": "삼청테니스장 코트이용(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250203094515004373",
+      "detail_court_name": "삼청테니스장 코트이용(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250203094813813226",
-      "svcnm": "삼청테니스장 코트이용(주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250203094813813226",
+      "detail_court_name": "삼청테니스장 코트이용(주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250203100521355945",
-      "svcnm": "삼청테니스장 코트이용(주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250203100521355945",
+      "detail_court_name": "삼청테니스장 코트이용(주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250203101245735715",
-      "svcnm": "삼청테니스장 코트이용(야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~20:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250203101245735715",
+      "detail_court_name": "삼청테니스장 코트이용(야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~20:00"
     },
     {
-      "svcid": "S250311174024716084",
-      "svcnm": "삼청테니스장 코트이용(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~16:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250311174024716084",
+      "detail_court_name": "삼청테니스장 코트이용(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~16:00"
     },
     {
-      "svcid": "S250311194902889157",
-      "svcnm": "삼청테니스장 코트이용(야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~21:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250311194902889157",
+      "detail_court_name": "삼청테니스장 코트이용(야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~21:00"
     },
     {
-      "svcid": "S250320175509978556",
-      "svcnm": "삼청테니스장 코트이용(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~16:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250320175509978556",
+      "detail_court_name": "삼청테니스장 코트이용(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~16:00"
     },
     {
-      "svcid": "S250320180654513085",
-      "svcnm": "삼청테니스장 코트이용(주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250320180654513085",
+      "detail_court_name": "삼청테니스장 코트이용(주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250507123826956626",
-      "svcnm": "삼청테니스장 코트이용(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~16:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250507123826956626",
+      "detail_court_name": "삼청테니스장 코트이용(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~16:00"
     },
     {
-      "svcid": "S250507125359540745",
-      "svcnm": "삼청테니스장 코트이용(야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~20:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250507125359540745",
+      "detail_court_name": "삼청테니스장 코트이용(야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~20:00"
     },
     {
-      "svcid": "S250508135838710595",
-      "svcnm": "삼청테니스장 코트이용(주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "삼청테니스장",
+      "court_detail_id": "S250508135838710595",
+      "detail_court_name": "삼청테니스장 코트이용(주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S241121165106420249",
-      "svcnm": "서울숲 테니스장 평일",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~19:00"
+      "court_name": "서울숲>서울숲 테니스장 테스트",
+      "court_detail_id": "S241121165106420249",
+      "detail_court_name": "서울숲 테니스장 평일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~19:00"
     },
     {
-      "svcid": "S241121165832748384",
-      "svcnm": "서울숲 테니스장 주말",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~19:00"
+      "court_name": "서울숲>서울숲 테니스장 테스트",
+      "court_detail_id": "S241121165832748384",
+      "detail_court_name": "서울숲 테니스장 주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~19:00"
     },
     {
-      "svcid": "S250419162244804726",
-      "svcnm": "한남테니스장 3번코트주간공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419162244804726",
+      "detail_court_name": "한남테니스장 3번코트주간공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~15:00"
     },
     {
-      "svcid": "S240610103855844965",
-      "svcnm": "(주말공휴일)장평테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "장평테니스장",
+      "court_detail_id": "S240610103855844965",
+      "detail_court_name": "(주말공휴일)장평테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S240610112027854676",
-      "svcnm": "(토요일-라이트사용)장평테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "17:00~21:00"
+      "court_name": "장평테니스장",
+      "court_detail_id": "S240610112027854676",
+      "detail_court_name": "(토요일-라이트사용)장평테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "17:00~21:00"
     },
     {
-      "svcid": "S240610132407749748",
-      "svcnm": "(공휴일-라이트사용)장평테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "17:00~21:00"
+      "court_name": "장평테니스장",
+      "court_detail_id": "S240610132407749748",
+      "detail_court_name": "(공휴일-라이트사용)장평테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "17:00~21:00"
     },
     {
-      "svcid": "S240610135649938319",
-      "svcnm": "(평일)장평테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "장평테니스장",
+      "court_detail_id": "S240610135649938319",
+      "detail_court_name": "(평일)장평테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S240610141241570844",
-      "svcnm": "(평일-라이트사용)장평테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "17:00~21:00"
+      "court_name": "장평테니스장",
+      "court_detail_id": "S240610141241570844",
+      "detail_court_name": "(평일-라이트사용)장평테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "17:00~21:00"
     },
     {
-      "svcid": "S250419083625772503",
-      "svcnm": "한남테니스장9번코트야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419083625772503",
+      "detail_court_name": "한남테니스장9번코트야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250419083848804702",
-      "svcnm": "한남테니스장 9번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419083848804702",
+      "detail_court_name": "한남테니스장 9번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250419084007949309",
-      "svcnm": "한남테니스장 9번코트새벽",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~08:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419084007949309",
+      "detail_court_name": "한남테니스장 9번코트새벽",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~08:00"
     },
     {
-      "svcid": "S250419084126701028",
-      "svcnm": "한남테니스장 1번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419084126701028",
+      "detail_court_name": "한남테니스장 1번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~15:00"
     },
     {
-      "svcid": "S250419161511991106",
-      "svcnm": "한남테니스장 1번코트주간 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419161511991106",
+      "detail_court_name": "한남테니스장 1번코트주간 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~15:00"
     },
     {
-      "svcid": "S250419161646721188",
-      "svcnm": "한남테니스장 2번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419161646721188",
+      "detail_court_name": "한남테니스장 2번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~15:00"
     },
     {
-      "svcid": "S250419161758468826",
-      "svcnm": "한남테니스장 2번코트주간 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419161758468826",
+      "detail_court_name": "한남테니스장 2번코트주간 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~15:00"
     },
     {
-      "svcid": "S250419161930139853",
-      "svcnm": "한남테니스장 3번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419161930139853",
+      "detail_court_name": "한남테니스장 3번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~15:00"
     },
     {
-      "svcid": "S250419162530159993",
-      "svcnm": "한남테니스장 3번코트주말",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~14:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419162530159993",
+      "detail_court_name": "한남테니스장 3번코트주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~14:00"
     },
     {
-      "svcid": "S250419162811237743",
-      "svcnm": "한남테니스장 4번코트새벽",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~09:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419162811237743",
+      "detail_court_name": "한남테니스장 4번코트새벽",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~09:00"
     },
     {
-      "svcid": "S250419162950587445",
-      "svcnm": "한남테니스장 4번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419162950587445",
+      "detail_court_name": "한남테니스장 4번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~15:00"
     },
     {
-      "svcid": "S250419163332507096",
-      "svcnm": "한남테니스장 4번코트주간공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419163332507096",
+      "detail_court_name": "한남테니스장 4번코트주간공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~15:00"
     },
     {
-      "svcid": "S250419163552746923",
-      "svcnm": "한남테니스장3번코트야간",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~22:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419163552746923",
+      "detail_court_name": "한남테니스장3번코트야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~22:00"
     },
     {
-      "svcid": "S250419163708530808",
-      "svcnm": "한남테니스장4번코트야간",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~22:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419163708530808",
+      "detail_court_name": "한남테니스장4번코트야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~22:00"
     },
     {
-      "svcid": "S250419164013470032",
-      "svcnm": "한남테니스장 4번코트주말",
-      "usetgtinfo": " 제한없음",
-      "time": "12:00~14:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419164013470032",
+      "detail_court_name": "한남테니스장 4번코트주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "12:00~14:00"
     },
     {
-      "svcid": "S250419164343854143",
-      "svcnm": "한남테니스장 8번코트새벽",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~08:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419164343854143",
+      "detail_court_name": "한남테니스장 8번코트새벽",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~08:00"
     },
     {
-      "svcid": "S250419164453863366",
-      "svcnm": "한남테니스장 8번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419164453863366",
+      "detail_court_name": "한남테니스장 8번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250419164611630622",
-      "svcnm": "한남테니스장8번코트야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419164611630622",
+      "detail_court_name": "한남테니스장8번코트야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250419164903606910",
-      "svcnm": "한남테니스장5번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~19:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419164903606910",
+      "detail_court_name": "한남테니스장5번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~19:00"
     },
     {
-      "svcid": "S250419165217790109",
-      "svcnm": "한남테니스장5번코트주간공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~19:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419165217790109",
+      "detail_court_name": "한남테니스장5번코트주간공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~19:00"
     },
     {
-      "svcid": "S250419165426443252",
-      "svcnm": "한남테니스장 5번코트주말",
-      "usetgtinfo": " 제한없음",
-      "time": "09:00~15:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419165426443252",
+      "detail_court_name": "한남테니스장 5번코트주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "09:00~15:00"
     },
     {
-      "svcid": "S250419165644757944",
-      "svcnm": "한남테니스장 6번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~19:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419165644757944",
+      "detail_court_name": "한남테니스장 6번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~19:00"
     },
     {
-      "svcid": "S250419165932527763",
-      "svcnm": "한남테니스장 11번코트새벽",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~09:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419165932527763",
+      "detail_court_name": "한남테니스장 11번코트새벽",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~09:00"
     },
     {
-      "svcid": "S250419170033915758",
-      "svcnm": "한남테니스장11번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~19:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250419170033915758",
+      "detail_court_name": "한남테니스장11번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~19:00"
     },
     {
-      "svcid": "S250420204259189523",
-      "svcnm": "한남테니스장11번코트주간공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~18:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250420204259189523",
+      "detail_court_name": "한남테니스장11번코트주간공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~18:00"
     },
     {
-      "svcid": "S250420204456023557",
-      "svcnm": "한남테니스장12번코트주간",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~19:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250420204456023557",
+      "detail_court_name": "한남테니스장12번코트주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~19:00"
     },
     {
-      "svcid": "S250422155316686568",
-      "svcnm": "한남테니스장8번코트주말",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250422155316686568",
+      "detail_court_name": "한남테니스장8번코트주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250422155431892169",
-      "svcnm": "한남테니스장9번코트주말",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "한남테니스장",
+      "court_detail_id": "S250422155431892169",
+      "detail_court_name": "한남테니스장9번코트주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250411135617653415",
-      "svcnm": "5월 월드컵공원 테니스장 A면 (평일주간) 이용 - 예약 4월15일(화) 13시",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "월드컵공원 테니스장",
+      "court_detail_id": "S250411135617653415",
+      "detail_court_name": "5월 월드컵공원 테니스장 A면 (평일주간) 이용 - 예약 4월15일(화) 13시",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S250411140507617196",
-      "svcnm": "5월 월드컵공원 테니스장 A면 (평일야간) 이용 - 예약 4월15일(화) 13시",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~21:00"
+      "court_name": "월드컵공원 테니스장",
+      "court_detail_id": "S250411140507617196",
+      "detail_court_name": "5월 월드컵공원 테니스장 A면 (평일야간) 이용 - 예약 4월15일(화) 13시",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~21:00"
     },
     {
-      "svcid": "S250411140847957306",
-      "svcnm": "5월 월드컵공원 테니스장 A면 (주말) 이용 - 예약 4월15일(화) 13시",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~21:00"
+      "court_name": "월드컵공원 테니스장",
+      "court_detail_id": "S250411140847957306",
+      "detail_court_name": "5월 월드컵공원 테니스장 A면 (주말) 이용 - 예약 4월15일(화) 13시",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~21:00"
     },
     {
-      "svcid": "S250414110416902827",
-      "svcnm": "5월 월드컵공원 테니스장 B면 (평일주간) 이용 - 예약 4월15일(화) 13시",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~19:00"
+      "court_name": "월드컵공원 테니스장",
+      "court_detail_id": "S250414110416902827",
+      "detail_court_name": "5월 월드컵공원 테니스장 B면 (평일주간) 이용 - 예약 4월15일(화) 13시",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~19:00"
     },
     {
-      "svcid": "S250414111057493567",
-      "svcnm": "5월 월드컵공원 테니스장 B면 (평일야간) 이용 - 예약 4월15일(화) 13시",
-      "usetgtinfo": " 제한없음",
-      "time": "19:00~21:00"
+      "court_name": "월드컵공원 테니스장",
+      "court_detail_id": "S250414111057493567",
+      "detail_court_name": "5월 월드컵공원 테니스장 B면 (평일야간) 이용 - 예약 4월15일(화) 13시",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "19:00~21:00"
     },
     {
-      "svcid": "S250414111329599097",
-      "svcnm": "5월 월드컵공원 테니스장 B면 (주말) 이용 - 예약 4월15일(화) 13시",
-      "usetgtinfo": " 제한없음",
-      "time": "07:00~21:00"
+      "court_name": "월드컵공원 테니스장",
+      "court_detail_id": "S250414111329599097",
+      "detail_court_name": "5월 월드컵공원 테니스장 B면 (주말) 이용 - 예약 4월15일(화) 13시",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~21:00"
     },
     {
-      "svcid": "S250419191349007232",
-      "svcnm": "5월_월곡테니스장 1번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "15:00~18:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419191349007232",
+      "detail_court_name": "5월_월곡테니스장 1번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "15:00~18:00"
     },
     {
-      "svcid": "S250424200608811206",
-      "svcnm": "5/1~5/15 장충테니스장 9번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424200608811206",
+      "detail_court_name": "5/1~5/15 장충테니스장 9번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250424200812895101",
-      "svcnm": "5/1~5/15 장충테니스장 2번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424200812895101",
+      "detail_court_name": "5/1~5/15 장충테니스장 2번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250419193200532941",
-      "svcnm": "5월_월곡테니스장 2번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "15:00~19:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419193200532941",
+      "detail_court_name": "5월_월곡테니스장 2번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "15:00~19:00"
     },
     {
-      "svcid": "S250419194336719359",
-      "svcnm": "5월_월곡테니스장 3번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~19:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419194336719359",
+      "detail_court_name": "5월_월곡테니스장 3번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~19:00"
     },
     {
-      "svcid": "S250419195756716618",
-      "svcnm": "5월_월곡테니스장 4번 코트(평일)",
-      "usetgtinfo": " 제한없음",
-      "time": "15:00~18:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419195756716618",
+      "detail_court_name": "5월_월곡테니스장 4번 코트(평일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "15:00~18:00"
     },
     {
-      "svcid": "S250419200101548978",
-      "svcnm": "5월_월곡테니스장 3번 코트(라이트사용)",
-      "usetgtinfo": " 제한없음",
-      "time": "20:00~22:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419200101548978",
+      "detail_court_name": "5월_월곡테니스장 3번 코트(라이트사용)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "20:00~22:00"
     },
     {
-      "svcid": "S250424201223690730",
-      "svcnm": "5/1~5/15 장충테니스장 3번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424201223690730",
+      "detail_court_name": "5/1~5/15 장충테니스장 3번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250424201426299869",
-      "svcnm": "5/1~5/15 장충테니스장 4번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424201426299869",
+      "detail_court_name": "5/1~5/15 장충테니스장 4번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250419200400416880",
-      "svcnm": "5월_월곡테니스장 4번 코트(라이트사용)",
-      "usetgtinfo": " 제한없음",
-      "time": "20:00~22:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419200400416880",
+      "detail_court_name": "5월_월곡테니스장 4번 코트(라이트사용)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "20:00~22:00"
     },
     {
-      "svcid": "S250419203526690284",
-      "svcnm": "5월_월곡테니스장 1번 코트(주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419203526690284",
+      "detail_court_name": "5월_월곡테니스장 1번 코트(주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250419203834289733",
-      "svcnm": "5월_월곡테니스장 2번 코트(주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419203834289733",
+      "detail_court_name": "5월_월곡테니스장 2번 코트(주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250419210355327728",
-      "svcnm": "5월_월곡테니스장 3번 코트(주말)",
-      "usetgtinfo": " 제한없음",
-      "time": "20:00~22:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419210355327728",
+      "detail_court_name": "5월_월곡테니스장 3번 코트(주말)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "20:00~22:00"
     },
     {
-      "svcid": "S250424201607727995",
-      "svcnm": "5/1~5/15 장충테니스장 7번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424201607727995",
+      "detail_court_name": "5/1~5/15 장충테니스장 7번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250424201821081969",
-      "svcnm": "5/1~5/15 장충테니스장 8번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424201821081969",
+      "detail_court_name": "5/1~5/15 장충테니스장 8번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250419210722855959",
-      "svcnm": "5월_월곡테니스장 1번 코트(휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~18:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419210722855959",
+      "detail_court_name": "5월_월곡테니스장 1번 코트(휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~18:00"
     },
     {
-      "svcid": "S250419211002610590",
-      "svcnm": "5월_월곡테니스장 3번 코트(휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~19:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250419211002610590",
+      "detail_court_name": "5월_월곡테니스장 3번 코트(휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~19:00"
     },
     {
-      "svcid": "S250423215456524311",
-      "svcnm": "5월_월곡테니스장 4번 코트(휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~09:00"
+      "court_name": "월곡테니스장",
+      "court_detail_id": "S250423215456524311",
+      "detail_court_name": "5월_월곡테니스장 4번 코트(휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~09:00"
     },
     {
-      "svcid": "S250424195206567522",
-      "svcnm": "5/1~5/15 장충테니스장 2번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424195206567522",
+      "detail_court_name": "5/1~5/15 장충테니스장 2번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250424195813388681",
-      "svcnm": "5/1~5/15 장충테니스장 3번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424195813388681",
+      "detail_court_name": "5/1~5/15 장충테니스장 3번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250424200017032242",
-      "svcnm": "5/1~5/15 장충테니스장 4번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424200017032242",
+      "detail_court_name": "5/1~5/15 장충테니스장 4번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250424200208822852",
-      "svcnm": "5/1~5/15 장충테니스장 7번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424200208822852",
+      "detail_court_name": "5/1~5/15 장충테니스장 7번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250424200416122153",
-      "svcnm": "5/1~5/15 장충테니스장 8번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424200416122153",
+      "detail_court_name": "5/1~5/15 장충테니스장 8번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250424202020366999",
-      "svcnm": "5/1~5/15 장충테니스장 9번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424202020366999",
+      "detail_court_name": "5/1~5/15 장충테니스장 9번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250424202209807924",
-      "svcnm": "5/1~5/15 장충테니스장 2번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424202209807924",
+      "detail_court_name": "5/1~5/15 장충테니스장 2번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250424202943496262",
-      "svcnm": "5/1~5/15 장충테니스장 3번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424202943496262",
+      "detail_court_name": "5/1~5/15 장충테니스장 3번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250424203222336828",
-      "svcnm": "5/1~5/15 장충테니스장 4번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424203222336828",
+      "detail_court_name": "5/1~5/15 장충테니스장 4번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250424203438786475",
-      "svcnm": "5/1~5/15 장충테니스장 7번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424203438786475",
+      "detail_court_name": "5/1~5/15 장충테니스장 7번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250424203913716059",
-      "svcnm": "5/1~5/15 장충테니스장 8번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424203913716059",
+      "detail_court_name": "5/1~5/15 장충테니스장 8번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250424204144755710",
-      "svcnm": "5/1~5/15 장충테니스장 9번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250424204144755710",
+      "detail_court_name": "5/1~5/15 장충테니스장 9번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250509145406344950",
-      "svcnm": "5/16~5/31 장충테니스장 2번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509145406344950",
+      "detail_court_name": "5/16~5/31 장충테니스장 2번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250509150204165280",
-      "svcnm": "5/16~5/31 장충테니스장 3번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509150204165280",
+      "detail_court_name": "5/16~5/31 장충테니스장 3번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250509150606314406",
-      "svcnm": "5/16~5/31 장충테니스장 4번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509150606314406",
+      "detail_court_name": "5/16~5/31 장충테니스장 4번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250509150956380816",
-      "svcnm": "5/16~5/31 장충테니스장 7번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509150956380816",
+      "detail_court_name": "5/16~5/31 장충테니스장 7번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250509151500599449",
-      "svcnm": "5/16~5/31 장충테니스장 8번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509151500599449",
+      "detail_court_name": "5/16~5/31 장충테니스장 8번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250509151724406907",
-      "svcnm": "5/16~5/31 장충테니스장 9번코트(주말 및 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509151724406907",
+      "detail_court_name": "5/16~5/31 장충테니스장 9번코트(주말 및 공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250509152015555559",
-      "svcnm": "5/16~5/31 장충테니스장 2번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509152015555559",
+      "detail_court_name": "5/16~5/31 장충테니스장 2번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250509152840087610",
-      "svcnm": "5/16~5/31 장충테니스장 3번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509152840087610",
+      "detail_court_name": "5/16~5/31 장충테니스장 3번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250509153943882838",
-      "svcnm": "5/16~5/31 장충테니스장 4번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509153943882838",
+      "detail_court_name": "5/16~5/31 장충테니스장 4번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250509154231409327",
-      "svcnm": "5/16~5/31 장충테니스장 7번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509154231409327",
+      "detail_court_name": "5/16~5/31 장충테니스장 7번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250509154450424131",
-      "svcnm": "5/16~5/31 장충테니스장 8번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509154450424131",
+      "detail_court_name": "5/16~5/31 장충테니스장 8번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250509154639760346",
-      "svcnm": "5/16~5/31 장충테니스장 9번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509154639760346",
+      "detail_court_name": "5/16~5/31 장충테니스장 9번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250509154819710697",
-      "svcnm": "5/16~5/31 장충테니스장 2번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509154819710697",
+      "detail_court_name": "5/16~5/31 장충테니스장 2번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250509155137250870",
-      "svcnm": "5/16~5/31 장충테니스장 3번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509155137250870",
+      "detail_court_name": "5/16~5/31 장충테니스장 3번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250509155313753507",
-      "svcnm": "5/16~5/31 장충테니스장 4번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509155313753507",
+      "detail_court_name": "5/16~5/31 장충테니스장 4번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250509155440018990",
-      "svcnm": "5/16~5/31 장충테니스장 7번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509155440018990",
+      "detail_court_name": "5/16~5/31 장충테니스장 7번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250509155700473065",
-      "svcnm": "5/16~5/31 장충테니스장 8번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509155700473065",
+      "detail_court_name": "5/16~5/31 장충테니스장 8번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250509155825818231",
-      "svcnm": "5/16~5/31 장충테니스장 9번코트(평일야간)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "장충테니스장",
+      "court_detail_id": "S250509155825818231",
+      "detail_court_name": "5/16~5/31 장충테니스장 9번코트(평일야간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250425000844764150",
-      "svcnm": "5월 정릉테니스장 A코트",
-      "usetgtinfo": " 제한없음",
-      "time": "13:00~18:00"
+      "court_name": "정릉테니스장",
+      "court_detail_id": "S250425000844764150",
+      "detail_court_name": "5월 정릉테니스장 A코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "13:00~18:00"
     },
     {
-      "svcid": "S241231203900656570",
-      "svcnm": "25년_동작테니스장 / 평일 / 새벽할증 (6시~8시)  / 5번코트",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~08:00"
+      "court_name": "동작구 테니스장",
+      "court_detail_id": "S241231203900656570",
+      "detail_court_name": "25년_동작테니스장 / 평일 / 새벽할증 (6시~8시)  / 5번코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~08:00"
     },
     {
-      "svcid": "S241231205401190096",
-      "svcnm": "25년_동작테니스장 / 평일 / 낮 (8시~18시)  / 5번코트",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "동작구 테니스장",
+      "court_detail_id": "S241231205401190096",
+      "detail_court_name": "25년_동작테니스장 / 평일 / 낮 (8시~18시)  / 5번코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250425001522395385",
-      "svcnm": "5월 정릉테니스장 B코트",
-      "usetgtinfo": " 제한없음",
-      "time": "15:00~16:00"
+      "court_name": "정릉테니스장",
+      "court_detail_id": "S250425001522395385",
+      "detail_court_name": "5월 정릉테니스장 B코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "15:00~16:00"
     },
     {
-      "svcid": "S250425001917177620",
-      "svcnm": "5월 정릉테니스장 C코트 주말(토)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~20:00"
+      "court_name": "정릉테니스장",
+      "court_detail_id": "S250425001917177620",
+      "detail_court_name": "5월 정릉테니스장 C코트 주말(토)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~20:00"
     },
     {
-      "svcid": "S250425002153217500",
-      "svcnm": "5월 정릉테니스장 C코트 주말(일)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~20:00"
+      "court_name": "정릉테니스장",
+      "court_detail_id": "S250425002153217500",
+      "detail_court_name": "5월 정릉테니스장 C코트 주말(일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~20:00"
     },
     {
-      "svcid": "S230428115408736358",
-      "svcnm": "서울에너지공사 목동 테니스장 1면 (공휴일) 08:00~18:00",
-      "usetgtinfo": " 성인(노약자 및 환자 이용 불가)",
-      "time": "08:00~19:00"
+      "court_name": "서울에너지공사 목동 테니스장 1면",
+      "court_detail_id": "S230428115408736358",
+      "detail_court_name": "서울에너지공사 목동 테니스장 1면 (공휴일) 08:00~18:00",
+      "target_user_info": " 성인(노약자 및 환자 이용 불가)",
+      "detail_operating_time": "08:00~19:00"
     },
     {
-      "svcid": "S230425174848455942",
-      "svcnm": "서울에너지공사 목동 테니스장 2면 (공휴일) 08:00~18:00",
-      "usetgtinfo": " 성인(노약자 및 환자 이용 불가)",
-      "time": "03:00~19:00"
+      "court_name": "서울에너지공사 목동 테니스장 2면",
+      "court_detail_id": "S230425174848455942",
+      "detail_court_name": "서울에너지공사 목동 테니스장 2면 (공휴일) 08:00~18:00",
+      "target_user_info": " 성인(노약자 및 환자 이용 불가)",
+      "detail_operating_time": "03:00~19:00"
     },
     {
-      "svcid": "S241227153756219266",
-      "svcnm": "25년_4. 동작테니스장 / 평일 / 낮 8시~18시  / 2번코트",
-      "usetgtinfo": " 제한없음",
-      "time": "10:00~18:00"
+      "court_name": "동작구 테니스장",
+      "court_detail_id": "S241227153756219266",
+      "detail_court_name": "25년_4. 동작테니스장 / 평일 / 낮 8시~18시  / 2번코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "10:00~18:00"
     },
     {
-      "svcid": "S241231103622491414",
-      "svcnm": "25년_1. 동작테니스장 / 평일 / 낮 8시~18시  / 1번코트",
-      "usetgtinfo": " 제한없음",
-      "time": "10:00~14:00"
+      "court_name": "동작구 테니스장",
+      "court_detail_id": "S241231103622491414",
+      "detail_court_name": "25년_1. 동작테니스장 / 평일 / 낮 8시~18시  / 1번코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "10:00~14:00"
     },
     {
-      "svcid": "S241231105012761501",
-      "svcnm": "25년_1. 동작테니스장 / 평일 / 낮 8시~18시  / 3번코트",
-      "usetgtinfo": " 제한없음",
-      "time": "14:00~18:00"
+      "court_name": "동작구 테니스장",
+      "court_detail_id": "S241231105012761501",
+      "detail_court_name": "25년_1. 동작테니스장 / 평일 / 낮 8시~18시  / 3번코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "14:00~18:00"
     },
     {
-      "svcid": "S241231203115293781",
-      "svcnm": "25년_4. 동작테니스장 / 평일 / 저녁할증 (18시~22시)  / 3번코트",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "동작구 테니스장",
+      "court_detail_id": "S241231203115293781",
+      "detail_court_name": "25년_4. 동작테니스장 / 평일 / 저녁할증 (18시~22시)  / 3번코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S241231210937208385",
-      "svcnm": "25년_동작테니스장 / 평일 / 새벽할증 (6시~8시)  / 6번코트",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~08:00"
+      "court_name": "동작구 테니스장",
+      "court_detail_id": "S241231210937208385",
+      "detail_court_name": "25년_동작테니스장 / 평일 / 새벽할증 (6시~8시)  / 6번코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~08:00"
     },
     {
-      "svcid": "S241231211524585150",
-      "svcnm": "25년_동작테니스장 / 평일 / 낮 8시~18시  / 6번코트",
-      "usetgtinfo": " 제한없음",
-      "time": "14:00~18:00"
+      "court_name": "동작구 테니스장",
+      "court_detail_id": "S241231211524585150",
+      "detail_court_name": "25년_동작테니스장 / 평일 / 낮 8시~18시  / 6번코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "14:00~18:00"
     },
     {
-      "svcid": "S250421140436922573",
-      "svcnm": "5월 보라매테니스장 1번코트 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250421140436922573",
+      "detail_court_name": "5월 보라매테니스장 1번코트 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250421161354402975",
-      "svcnm": "5월 보라매테니스장 4번코트 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250421161354402975",
+      "detail_court_name": "5월 보라매테니스장 4번코트 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250421163433629017",
-      "svcnm": "5월 보라매테니스장 5번코트 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250421163433629017",
+      "detail_court_name": "5월 보라매테니스장 5번코트 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250421165658186909",
-      "svcnm": "5월 보라매테니스장 1번코트 야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250421165658186909",
+      "detail_court_name": "5월 보라매테니스장 1번코트 야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250421230632373845",
-      "svcnm": "5월 보라매테니스장 2번코트 야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250421230632373845",
+      "detail_court_name": "5월 보라매테니스장 2번코트 야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250422003502170775",
-      "svcnm": "5월 보라매테니스장 3번코트 야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250422003502170775",
+      "detail_court_name": "5월 보라매테니스장 3번코트 야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250422003920616280",
-      "svcnm": "5월 보라매테니스장 4번코트 야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250422003920616280",
+      "detail_court_name": "5월 보라매테니스장 4번코트 야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250422004304671433",
-      "svcnm": "5월 보라매테니스장 5번코트 야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250422004304671433",
+      "detail_court_name": "5월 보라매테니스장 5번코트 야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250422004709387213",
-      "svcnm": "5월 보라매테니스장 1번코트 (주말,공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250422004709387213",
+      "detail_court_name": "5월 보라매테니스장 1번코트 (주말,공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250422010029702925",
-      "svcnm": "5월 보라매테니스장 2번코트 (주말,공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "보라매공원",
+      "court_detail_id": "S250422010029702925",
+      "detail_court_name": "5월 보라매테니스장 2번코트 (주말,공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250422012704870253",
-      "svcnm": "5월 보라매테니스장 2번코트 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426174158514536",
+      "detail_court_name": "이촌 한강공원 테니스장 4번 코트 - 평일 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250422020809047254",
-      "svcnm": "5월 보라매테니스장 3번코트 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426174427273276",
+      "detail_court_name": "이촌 한강공원 테니스장 5번 코트 - 평일 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250422022144549858",
-      "svcnm": "5월 보라매테니스장 5번코트 (주말,공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426174557733530",
+      "detail_court_name": "이촌 한강공원 테니스장 6번 코트 - 평일 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250422022210921118",
-      "svcnm": "5월 보라매테니스장 4번코트 (주말, 공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426174720415360",
+      "detail_court_name": "이촌 한강공원 테니스장 7번 코트 - 평일 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250422022240167055",
-      "svcnm": "5월 보라매테니스장 3번코트 (주말,공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426175042433237",
+      "detail_court_name": "이촌 한강공원 테니스장 8번 코트 - 평일 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250430011801234690",
-      "svcnm": "5월 보라매공원테니스장 6번 레슨코트(주말,공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426175210076721",
+      "detail_court_name": "이촌 한강공원 테니스장 4번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250430011849500034",
-      "svcnm": "5월 보라매공원테니스장 7번 레슨코트(주말,공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426175352394986",
+      "detail_court_name": "이촌 한강공원 테니스장 5번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250505231028028995",
-      "svcnm": "5월 보라매테니스장 7번 레슨코트 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426175511229540",
+      "detail_court_name": "이촌 한강공원 테니스장 6번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250505231036423363",
-      "svcnm": "5월 보라매테니스장 6번 레슨코트 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426175851508029",
+      "detail_court_name": "이촌 한강공원 테니스장 7번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250426174158514536",
-      "svcnm": "이촌 한강공원 테니스장 4번 코트 - 평일 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426180010294857",
+      "detail_court_name": "이촌 한강공원 테니스장 8번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250426174427273276",
-      "svcnm": "이촌 한강공원 테니스장 5번 코트 - 평일 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426180141957737",
+      "detail_court_name": "이촌 한강공원 테니스장 4번 코트 - 주말, 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250426174557733530",
-      "svcnm": "이촌 한강공원 테니스장 6번 코트 - 평일 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426180328640253",
+      "detail_court_name": "이촌 한강공원 테니스장 5번 코트 - 주말, 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250426174720415360",
-      "svcnm": "이촌 한강공원 테니스장 7번 코트 - 평일 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426180451826413",
+      "detail_court_name": "이촌 한강공원 테니스장 6번 코트 - 주말, 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250426175042433237",
-      "svcnm": "이촌 한강공원 테니스장 8번 코트 - 평일 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426180617170025",
+      "detail_court_name": "이촌 한강공원 테니스장 7번 코트 - 주말, 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250426175210076721",
-      "svcnm": "이촌 한강공원 테니스장 4번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "이촌 한강공원 테니스장",
+      "court_detail_id": "S250426180743931514",
+      "detail_court_name": "이촌 한강공원 테니스장 8번 코트 - 주말, 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250426175352394986",
-      "svcnm": "이촌 한강공원 테니스장 5번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429083756519141",
+      "detail_court_name": "뚝섬 한강공원 테니스장 4번 코트 - 주말, 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250426175511229540",
-      "svcnm": "이촌 한강공원 테니스장 6번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429084158579529",
+      "detail_court_name": "뚝섬 한강공원 테니스장 3번 코트 - 주말, 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250426175851508029",
-      "svcnm": "이촌 한강공원 테니스장 7번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429084423053963",
+      "detail_court_name": "뚝섬 한강공원 테니스장 2번 코트 - 주말, 공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250426180010294857",
-      "svcnm": "이촌 한강공원 테니스장 8번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429084615103799",
+      "detail_court_name": "뚝섬 한강공원 테니스장 4번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250426180141957737",
-      "svcnm": "이촌 한강공원 테니스장 4번 코트 - 주말, 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429084821179228",
+      "detail_court_name": "뚝섬 한강공원 테니스장 3번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250426180328640253",
-      "svcnm": "이촌 한강공원 테니스장 5번 코트 - 주말, 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429085005122987",
+      "detail_court_name": "뚝섬 한강공원 테니스장 2번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250426180451826413",
-      "svcnm": "이촌 한강공원 테니스장 6번 코트 - 주말, 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429085130538684",
+      "detail_court_name": "뚝섬 한강공원 테니스장 4번 코트 - 평일 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250426180617170025",
-      "svcnm": "이촌 한강공원 테니스장 7번 코트 - 주말, 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429085317944158",
+      "detail_court_name": "뚝섬 한강공원 테니스장 3번 코트 - 평일 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250426180743931514",
-      "svcnm": "이촌 한강공원 테니스장 8번 코트 - 주말, 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "뚝섬 한강공원 테니스장",
+      "court_detail_id": "S250429085454177408",
+      "detail_court_name": "뚝섬 한강공원 테니스장 2번 코트 - 평일 주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250429083756519141",
-      "svcnm": "뚝섬 한강공원 테니스장 4번 코트 - 주말, 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428141755450518",
+      "detail_court_name": "광나루 한강공원 테니스장 4번 코트 - 평일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250429084158579529",
-      "svcnm": "뚝섬 한강공원 테니스장 3번 코트 - 주말, 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428142017000910",
+      "detail_court_name": "광나루 한강공원 테니스장 5번 코트 - 평일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250429084423053963",
-      "svcnm": "뚝섬 한강공원 테니스장 2번 코트 - 주말, 공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428142157066554",
+      "detail_court_name": "광나루 한강공원 테니스장 6번 코트 - 평일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250429084615103799",
-      "svcnm": "뚝섬 한강공원 테니스장 4번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428142337606937",
+      "detail_court_name": "광나루 한강공원 테니스장 7번 코트 - 평일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250429084821179228",
-      "svcnm": "뚝섬 한강공원 테니스장 3번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428142511863303",
+      "detail_court_name": "광나루 한강공원 테니스장 8번 코트 - 평일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250429085005122987",
-      "svcnm": "뚝섬 한강공원 테니스장 2번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428142654512563",
+      "detail_court_name": "광나루 한강공원 테니스장 4번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250429085130538684",
-      "svcnm": "뚝섬 한강공원 테니스장 4번 코트 - 평일 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428142838660589",
+      "detail_court_name": "광나루 한강공원 테니스장 5번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250429085317944158",
-      "svcnm": "뚝섬 한강공원 테니스장 3번 코트 - 평일 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428143021763770",
+      "detail_court_name": "광나루 한강공원 테니스장 6번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250429085454177408",
-      "svcnm": "뚝섬 한강공원 테니스장 2번 코트 - 평일 주간",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428143203351134",
+      "detail_court_name": "광나루 한강공원 테니스장 7번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250428141755450518",
-      "svcnm": "광나루 한강공원 테니스장 4번 코트 - 평일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428143334019580",
+      "detail_court_name": "광나루 한강공원 테니스장 8번 코트 - 저녁",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250428142017000910",
-      "svcnm": "광나루 한강공원 테니스장 5번 코트 - 평일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428143511553214",
+      "detail_court_name": "광나루 한강공원 테니스장 4번 코트 - 주말,공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250428142157066554",
-      "svcnm": "광나루 한강공원 테니스장 6번 코트 - 평일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428143845872380",
+      "detail_court_name": "광나루 한강공원 테니스장 5번 코트 - 주말,공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250428142337606937",
-      "svcnm": "광나루 한강공원 테니스장 7번 코트 - 평일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428144026346921",
+      "detail_court_name": "광나루 한강공원 테니스장 6번 코트 - 주말,공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250428142511863303",
-      "svcnm": "광나루 한강공원 테니스장 8번 코트 - 평일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428144151607872",
+      "detail_court_name": "광나루 한강공원 테니스장 7번 코트 - 주말,공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250428142654512563",
-      "svcnm": "광나루 한강공원 테니스장 4번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "광나루 한강공원 테니스장",
+      "court_detail_id": "S250428144323246456",
+      "detail_court_name": "광나루 한강공원 테니스장 8번 코트 - 주말,공휴일",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~22:00"
     },
     {
-      "svcid": "S250428142838660589",
-      "svcnm": "광나루 한강공원 테니스장 5번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "오륜테니스장",
+      "court_detail_id": "S250415081334242355",
+      "detail_court_name": "5월 오륜테니스장-평일 야간(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250428143021763770",
-      "svcnm": "광나루 한강공원 테니스장 6번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "망원유수지 소프트테니스장",
+      "court_detail_id": "S231213121512817510",
+      "detail_court_name": "[평일주간]망원유수지 소프트테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250428143203351134",
-      "svcnm": "광나루 한강공원 테니스장 7번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "망원유수지 소프트테니스장",
+      "court_detail_id": "S250109135701158653",
+      "detail_court_name": "[평일야간]망원유수지 소프트테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250428143334019580",
-      "svcnm": "광나루 한강공원 테니스장 8번 코트 - 저녁",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "망원유수지 소프트테니스장",
+      "court_detail_id": "S250109141654020278",
+      "detail_court_name": "[주말, 공휴일 주간]망원유수지 소프트테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250428143511553214",
-      "svcnm": "광나루 한강공원 테니스장 4번 코트 - 주말,공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "망원유수지 소프트테니스장",
+      "court_detail_id": "S250109152136503540",
+      "detail_court_name": "[주말, 공휴일 야간]망원유수지 소프트테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250428143845872380",
-      "svcnm": "광나루 한강공원 테니스장 5번 코트 - 주말,공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "오륜테니스장",
+      "court_detail_id": "S250415080851399568",
+      "detail_court_name": "5월 오륜테니스장-평일 주간(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250428144026346921",
-      "svcnm": "광나루 한강공원 테니스장 6번 코트 - 주말,공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "오륜테니스장",
+      "court_detail_id": "S250415081852703133",
+      "detail_court_name": "5월 오륜테니스장-주말 및 공휴일(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250428144151607872",
-      "svcnm": "광나루 한강공원 테니스장 7번 코트 - 주말,공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "성내천테니스장",
+      "court_detail_id": "S250414075634391651",
+      "detail_court_name": "5월 성내천테니스장-주말 및 공휴일(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250428144323246456",
-      "svcnm": "광나루 한강공원 테니스장 8번 코트 - 주말,공휴일",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~22:00"
+      "court_name": "성내천테니스장",
+      "court_detail_id": "S250414080509731101",
+      "detail_court_name": "5월 성내천테니스장-평일 야간(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250415081334242355",
-      "svcnm": "5월 오륜테니스장-평일 야간(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "성내천테니스장",
+      "court_detail_id": "S250414081001323714",
+      "detail_court_name": "5월 성내천테니스장-평일 주간(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S231213121512817510",
-      "svcnm": "[평일주간]망원유수지 소프트테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "송파테니스장",
+      "court_detail_id": "S250416092911260887",
+      "detail_court_name": "5월 송파테니스장-평일주간(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250109135701158653",
-      "svcnm": "[평일야간]망원유수지 소프트테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "송파테니스장",
+      "court_detail_id": "S250416093800061331",
+      "detail_court_name": "5월 송파테니스장-주말 및 공휴일(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "11:00~18:00"
     },
     {
-      "svcid": "S250109141654020278",
-      "svcnm": "[주말, 공휴일 주간]망원유수지 소프트테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "잠원한강테니스장",
+      "court_detail_id": "S250424190406652424",
+      "detail_court_name": "잠원테니스장 5월 3번 4번 5번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250109152136503540",
-      "svcnm": "[주말, 공휴일 야간]망원유수지 소프트테니스장",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "잠원한강테니스장",
+      "court_detail_id": "S250424190732850666",
+      "detail_court_name": "잠원테니스장 5월 3번 4번 5번코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250415080851399568",
-      "svcnm": "5월 오륜테니스장-평일 주간(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "잠원한강테니스장",
+      "court_detail_id": "S250424192139474291",
+      "detail_court_name": "잠원테니스장 5월 3번 4번 5번코트(라이트-아침,저녁)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250415081852703133",
-      "svcnm": "5월 오륜테니스장-주말 및 공휴일(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "망원한강테니스장",
+      "court_detail_id": "S250424182440003347",
+      "detail_court_name": "망원테니스장 5월 1번 2번 3번 4번코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250414075634391651",
-      "svcnm": "5월 성내천테니스장-주말 및 공휴일(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "망원한강테니스장",
+      "court_detail_id": "S250424183343693622",
+      "detail_court_name": "망원테니스장 5월 1번 2번 3번 4번코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250414080509731101",
-      "svcnm": "5월 성내천테니스장-평일 야간(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "망원한강테니스장",
+      "court_detail_id": "S250424184132112829",
+      "detail_court_name": "망원테니스장 5월 1번 2번 3번 4번코트(라이트-아침.저녁)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250414081001323714",
-      "svcnm": "5월 성내천테니스장-평일 주간(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "난지한강테니스장",
+      "court_detail_id": "S250424192553057146",
+      "detail_court_name": "난지한강테니스장 5월 1번 2번 코트(평일주간)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "08:00~18:00"
     },
     {
-      "svcid": "S250416092911260887",
-      "svcnm": "5월 송파테니스장-평일주간(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "난지한강테니스장",
+      "court_detail_id": "S250424192924738355",
+      "detail_court_name": "난지한강테니스장 5월 1번 2번코트(주말/공휴일)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250416093800061331",
-      "svcnm": "5월 송파테니스장-주말 및 공휴일(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "11:00~18:00"
+      "court_name": "난지한강테니스장",
+      "court_detail_id": "S250424193256189437",
+      "detail_court_name": "난지한강테니스장 5월 1번 2번코트(라이트-아침.저녁)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250424190406652424",
-      "svcnm": "잠원테니스장 5월 3번 4번 5번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "동부도로사업소 테니스장",
+      "court_detail_id": "S241104145309217576",
+      "detail_court_name": "동부 도로사업소 테니스장 A코트 평일주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S250424190732850666",
-      "svcnm": "잠원테니스장 5월 3번 4번 5번코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "동부도로사업소 테니스장",
+      "court_detail_id": "S241116164855941555",
+      "detail_court_name": "동부 도로사업소 테니스장 A코트 평일야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S250424192139474291",
-      "svcnm": "잠원테니스장 5월 3번 4번 5번코트(라이트-아침,저녁)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "동부도로사업소 테니스장",
+      "court_detail_id": "S241116172858516368",
+      "detail_court_name": "동부 도로사업소 테니스장 A코트 주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S250424182440003347",
-      "svcnm": "망원테니스장 5월 1번 2번 3번 4번코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "오금공원테니스장",
+      "court_detail_id": "S250414081700940910",
+      "detail_court_name": "5월 오금공원 테니스장-주말 및 공휴일(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "14:00~22:00"
     },
     {
-      "svcid": "S250424183343693622",
-      "svcnm": "망원테니스장 5월 1번 2번 3번 4번코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "오금공원테니스장",
+      "court_detail_id": "S250414082342338622",
+      "detail_court_name": "5월 오금공원 테니스장-평일 야간(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "20:00~22:00"
     },
     {
-      "svcid": "S250424184132112829",
-      "svcnm": "망원테니스장 5월 1번 2번 3번 4번코트(라이트-아침.저녁)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "오금공원테니스장",
+      "court_detail_id": "S250414082825308311",
+      "detail_court_name": "5월 오금공원 테니스장-평일 주간(송파구민만 가능)",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "12:00~16:00"
     },
     {
-      "svcid": "S250424192553057146",
-      "svcnm": "난지한강테니스장 5월 1번 2번 코트(평일주간)",
-      "usetgtinfo": " 제한없음",
-      "time": "08:00~18:00"
+      "court_name": "강서구립 방화테니스장",
+      "court_detail_id": "S250304170147219936",
+      "detail_court_name": "강서구립 방화테니스장",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "07:00~21:00"
     },
     {
-      "svcid": "S250424192924738355",
-      "svcnm": "난지한강테니스장 5월 1번 2번코트(주말/공휴일)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "난우공원 테니스장",
+      "court_detail_id": "S250409102007373007",
+      "detail_court_name": "난우공원 테니스장 B코트",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "10:00~20:00"
     },
     {
-      "svcid": "S250424193256189437",
-      "svcnm": "난지한강테니스장 5월 1번 2번코트(라이트-아침.저녁)",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "남부도로사업소 테니스장",
+      "court_detail_id": "S241104154403326000",
+      "detail_court_name": "남부 도로사업소 테니스장 A코트 평일주간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~18:00"
     },
     {
-      "svcid": "S241104145309217576",
-      "svcnm": "동부 도로사업소 테니스장 A코트 평일주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
+      "court_name": "남부도로사업소 테니스장",
+      "court_detail_id": "S241116172135112456",
+      "detail_court_name": "남부도로사업소 테니스장 A코트 평일야간",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "18:00~22:00"
     },
     {
-      "svcid": "S241116164855941555",
-      "svcnm": "동부 도로사업소 테니스장 A코트 평일야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
+      "court_name": "남부도로사업소 테니스장",
+      "court_detail_id": "S241116173316259557",
+      "detail_court_name": "남부도로사업소 테니스장 A코트 주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     },
     {
-      "svcid": "S241116172858516368",
-      "svcnm": "동부 도로사업소 테니스장 A코트 주말",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
-    },
-    {
-      "svcid": "S250414081700940910",
-      "svcnm": "5월 오금공원 테니스장-주말 및 공휴일(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "14:00~22:00"
-    },
-    {
-      "svcid": "S250414082342338622",
-      "svcnm": "5월 오금공원 테니스장-평일 야간(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "20:00~22:00"
-    },
-    {
-      "svcid": "S250414082825308311",
-      "svcnm": "5월 오금공원 테니스장-평일 주간(송파구민만 가능)",
-      "usetgtinfo": " 제한없음",
-      "time": "12:00~16:00"
-    },
-    {
-      "svcid": "S250409102007373007",
-      "svcnm": "난우공원 테니스장 B코트",
-      "usetgtinfo": " 제한없음",
-      "time": "10:00~20:00"
-    },
-    {
-      "svcid": "S241104154403326000",
-      "svcnm": "남부 도로사업소 테니스장 A코트 평일주간",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~18:00"
-    },
-    {
-      "svcid": "S241116172135112456",
-      "svcnm": "남부도로사업소 테니스장 A코트 평일야간",
-      "usetgtinfo": " 제한없음",
-      "time": "18:00~22:00"
-    },
-    {
-      "svcid": "S241116173316259557",
-      "svcnm": "남부도로사업소 테니스장 A코트 주말",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
-    },
-    {
-      "svcid": "S241208152303651013",
-      "svcnm": "남부도로사업소 테니스장 B코트 주말",
-      "usetgtinfo": " 제한없음",
-      "time": "06:00~22:00"
+      "court_name": "남부도로사업소 테니스장",
+      "court_detail_id": "S241208152303651013",
+      "detail_court_name": "남부도로사업소 테니스장 B코트 주말",
+      "target_user_info": " 제한없음",
+      "detail_operating_time": "06:00~22:00"
     }
   ]
 }

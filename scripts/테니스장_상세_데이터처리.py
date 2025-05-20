@@ -1,7 +1,7 @@
 import json
 
 # 경로 설정
-input_path = '../data/서울시_테니스장_정보.json'
+input_path = '../processed_data/서울시_테니스장_정보.json'
 output_path = '../processed_data/테니스장_상세.json'
 
 # 원본 JSON 불러오기
@@ -9,7 +9,7 @@ with open(input_path, encoding='utf-8') as f:
     original = json.load(f)
 
 # 유지할 키 목록 (v_min/v_max 은 별도 처리)
-keys_to_keep = [ 'svcid', 'svcnm', 'usetgtinfo']
+keys_to_keep = [ 'court_name', 'court_detail_id', 'detail_court_name', 'target_user_info']
 seen = set()
 
 # 데이터 필터링 및 시간 합치기
